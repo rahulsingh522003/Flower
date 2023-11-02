@@ -5,11 +5,46 @@
   margin: 0;
   box-sizing: border-box;
 }
+@import url("https://fonts.googleapis.com/css?family=Raleway:900&display=swap");
+
+#container {
+    position: relative;
+    margin: auto;
+    width: 100vw;
+    height: 80pt;
+    top: 0;
+    bottom: 0;
+    color: #fff;
+    filter: url(#threshold) blur(0.6px);
+   
+}
+
+#text1,
+#text2 {
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+
+    text-align: center;
+
+    user-select: none;
+    
+}
 
 :root {
   --dark-color: #000;
 }
-
+.name{
+  color: #fff;
+  z-index: 100;
+  font-family: 'Dancing Script', cursive;
+  font-size: 100px;
+  position: relative;
+  bottom: 85vh;
+}
 body {
   display: flex;
   align-items: flex-end;
