@@ -15,7 +15,8 @@ const elts = {
         "me",
         "Aditi",
         ":)",
-        "by Rahul"
+        "by Rahul",
+        ""
     ];
     
     const morphTime = 1;
